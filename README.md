@@ -1,5 +1,6 @@
 <div align="center">
 <h1 align="center">
+  <img src="https://socialify.git.ci/047pegasus/NotlyBackendAssignment/image?description=1&descriptionEditable=A%20simple%20Note%20taking%20app%20with%20Node%20JS%2C%20Typescript%20and%20MongoDB.&font=Raleway&forks=1&issues=1&language=1&name=1&owner=1&pattern=Floating%20Cogs&pulls=1&stargazers=1&theme=Dark" alt="NotlyBackendAssignment" width="640" height="320" />
 <br>Notly Backend</h1>
 <h3>◦ A Note Taking Application's Backend written in Typescript 🚀</h3>
 
