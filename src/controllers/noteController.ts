@@ -18,7 +18,7 @@ export const createNote = async (req: Request, res: Response) => {
 
   const note = new NoteModel({
     nid,
-    title, // Include the title here
+    title, 
     content,
   });
 
@@ -30,7 +30,7 @@ export const createNote = async (req: Request, res: Response) => {
   }
 };
 
-// Other controller functions remain unchanged
+// Update & Delete controllers
 export const updateNote = async (req: Request, res: Response) => {
   const nid = req.params.nid;
 
