@@ -21,9 +21,13 @@ const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'MongoDB connection error:'));
 
 app.use(bodyParser.json());
+
+app.get('/', function(req, res){
+  res.json({ message: "Hello there. Welcome to Notly Backend Mock !!" });
+});
+
 app.use('/api/notes', noteRoutes);
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
-
